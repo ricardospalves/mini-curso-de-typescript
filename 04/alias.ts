@@ -1,4 +1,6 @@
 // Type alias
+//
+// O pipe (|) é chamado de Union
 type Uid = number | string
 
 function logDetails(uid: Uid, title: string) {
